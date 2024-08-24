@@ -1,0 +1,90 @@
+/* Import Google Font */
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    color: inherit;
+    /* Keeps the text color unchanged */
+}
+
+/* Header Styles */
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
+
+/* Main Section Styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Privacy Policy Content Styles */
+h1,
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    /* Bolder font weight for headings */
+}
+
+p {
+    margin-bottom: 20px;
+    /* Adds margin between paragraphs */
+    line-height: 1.6;
+    /* Improves readability */
+}
+
+ol {
+    margin-bottom: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    main {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .button-container {
+        flex-direction: column;
+    }
+
+    footer {
+        position: static;
+        padding: 10px;
+    }
+}
