@@ -1,1 +1,113 @@
+/* Temel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    /* Modern bir sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    /* Hafif gri arka plan rengi */
+    color: #333;
+    /* Genel metin rengi */
+    line-height: 1.6;
+    /* Satır arası boşluk */
+}
 
+header {
+    padding: 20px;
+    background: linear-gradient(135deg, #6d83f2, #9a7af2);
+    /* Header için degrade arka plan */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Header gölgesi */
+    border-radius: 0 0 15px 15px;
+    /* Header alt köşeler için yuvarlatma */
+    margin-bottom: 40px;
+    text-align: center;
+    /* Header ile içerik arası boşluk */
+}
+
+.header-logo-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* Logoyu yuvarlak yapar */
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.2));
+    /* Logoya gölge efekti */
+}
+
+main {
+    max-width: 800px;
+    /* İçeriğin genişliği */
+    margin: 40px auto;
+    /* Ortala ve yukarı-aşağı boşluk */
+    padding: 20px;
+    background-color: white;
+    /* İçerik arka planı */
+    border-radius: 8px;
+    /* Köşeleri yuvarlatma */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Kutu gölgesi */
+}
+
+h1 {
+    font-size: 2.5em;
+    /* Başlık boyutu */
+    color: #6d83f2;
+    /* Başlık rengi */
+    margin-bottom: 10px;
+    /* Başlık altı boşluk */
+}
+
+h2 {
+    font-size: 1.5em;
+    /* Alt başlık boyutu */
+    color: #444;
+    /* Alt başlık rengi */
+    margin-top: 30px;
+    /* Alt başlık üstü boşluk */
+    margin-bottom: 10px;
+    /* Alt başlık altı boşluk */
+}
+
+.update-date {
+    font-size: 0.9em;
+    /* Güncelleme tarihi yazı boyutu */
+    color: #777;
+    /* Güncelleme tarihi rengi */
+}
+
+p,
+ol {
+    margin-bottom: 20px;
+    /* Paragraf ve liste altı boşluk */
+}
+
+ol {
+    padding-left: 20px;
+    /* Liste içeriği için boşluk */
+}
+
+ol li {
+    margin-bottom: 10px;
+    /* Liste elemanı altı boşluk */
+}
+
+/* Duyarlı Tasarım Ayarları */
+@media (max-width: 768px) {
+    main {
+        margin: 20px;
+        /* Küçük ekranlar için içeriği daralt */
+        padding: 15px;
+        /* Küçük ekranlar için padding azalt */
+    }
+
+    h1 {
+        font-size: 2em;
+        /* Küçük ekranlar için başlık boyutunu azalt */
+    }
+
+    h2 {
+        font-size: 1.2em;
+        /* Küçük ekranlar için alt başlık boyutunu azalt */
+    }
+}
