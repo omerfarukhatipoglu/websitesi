@@ -12,7 +12,7 @@ body {
 
 header {
     padding: 20px;
-    background: white;
+    background: linear-gradient(135deg, #6d83f2, #9a7af2);
     /* Header için degrade arka plan */
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
