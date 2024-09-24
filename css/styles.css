@@ -111,6 +111,12 @@ footer a:hover {
     text-decoration: underline;
     /* Link üzerine gelindiğinde altını çizme */
 }
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #333;
+}
+
 
 /* Duyarlı Tasarım Ayarları */
 @media (max-width: 768px) {
